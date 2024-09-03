@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html,body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #F4ECE1;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+}
+header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.search{
+    width: 314px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    outline: none;
+    border: none;
+    width: 190px;
+    height: 30px;
+    background-color: rgba(243, 236, 228, 0.604);
+    box-sizing: 15px;
+    opacity: 1;
+    box-shadow: 4px 4px 4px #dedddc;
+    border-radius: 20px;
+    padding-left: 35px;
+}
+.search img{
+    width: 13px;
+    height: 13px;
+    margin-right: 140px;
+    position: absolute;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-right: 80px;
+}
+.logo img{
+    margin-bottom: 9px;
+}
+input[ type="search"]::-webkit-search-results-button{
+    --webkit-appearance: none;
+    appearance:none;
+}
+.fast-food{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.fast-food img{
+    width: 400px;
+    height: 400px;
+}
+.text{
+    width: 400px;
+}
+.name{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+}
+.name span:nth-child(1){
+    font-size: 90px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    color: darkorange;
+}
+.name span:nth-child(2){
+    width: 120px;
+    height: 50px;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 40px;
+    padding-top: 30px;
+}
+
+
+
+/*echo "# Food-Delivery-Website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ayshenmehdiyeva/ 
+git push -u origin main*/
