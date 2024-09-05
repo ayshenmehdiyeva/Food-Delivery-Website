@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-html,body{
+
+html,
+body {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     background-color: #F4ECE1;
 }
-.container{
+
+.container {
     width: 100%;
     margin: auto;
     height: 100vh;
 }
-header{
+
+header {
     height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,12 +30,14 @@ nav ul{
     margin-left: 50px;
     margin-right: 40px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-left: 20px;
     font-family: "Poppins", sans-serif;
 }
-.search{
+
+.search {
     width: 314px;
     height: 60px;
     display: flex;
@@ -38,7 +45,8 @@ nav ul li{
     justify-content: center;
     align-items: center;
 }
-input{
+
+input {
     outline: none;
     border: none;
     width: 190px;
@@ -50,13 +58,15 @@ input{
     border-radius: 20px;
     padding-left: 35px;
 }
-.search img{
+
+.search img {
     width: 13px;
     height: 13px;
     margin-right: 140px;
     position: absolute;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,39 +76,47 @@ input{
     font-family: "Poppins", sans-serif;
     margin-right: 80px;
 }
-.logo img{
+
+.logo img {
     margin-bottom: 9px;
 }
-input[ type="search"]::-webkit-search-results-button{
+
+input[ type="search"]::-webkit-search-results-button {
     --webkit-appearance: none;
-    appearance:none;
+    appearance: none;
 }
-.fast-food{
+
+.fast-food {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 20px;
 
 }
-.fast-food img{
+
+.fast-food img {
     width: 400px;
     height: 400px;
 }
-.text{
+
+.text {
     width: 400px;
 }
-.name{
+
+.name {
     height: 120px;
     display: flex;
     flex-direction: row;
 }
-.name span:nth-child(1){
+
+.name span:nth-child(1) {
     font-size: 90px;
     font-weight: 800;
     font-family: "Poppins", sans-serif;
     color: darkorange;
 }
-.name span:nth-child(2){
+
+.name span:nth-child(2) {
     width: 120px;
     height: 50px;
     font-size: 36px;
@@ -109,12 +127,204 @@ input[ type="search"]::-webkit-search-results-button{
     padding-top: 30px;
 }
 
+.up-sign {
+    width: 150px;
+    height: 150px;
+    display: block;
 
+}
 
-/*echo "# Food-Delivery-Website" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ayshenmehdiyeva/ 
-git push -u origin main*/
+.up-sign img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    bottom: 70px;
+    right: 25px;
+
+}
+
+.info {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #909090;
+    width: 90%;
+}
+
+button:nth-child(1) {
+    width: 120px;
+    height: 40px;
+    opacity: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+    background-color: #2F2F2F;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:nth-child(1):hover {
+    background-color: #ffa602;
+}
+
+.watch {
+    width: 170px;
+    height: 40px;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    background: none;
+}
+
+button:nth-child(2) p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    cursor: pointer;
+}
+
+button:nth-child(2) img {
+    width: 12px;
+    height: 12px;
+}
+
+.food-img {
+    width: 300px;
+    height: 230px;
+    background-image: url(./image/i7jc-listing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.min-img {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+    margin-top: 7px;
+    background-color: #fff;
+}
+
+.min-img img {
+    height: 60px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.trending-food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30%;
+}
+
+.food-name {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 43.88px;
+    text-align: left;
+    color: #ffa602;
+    padding: 0px;
+    margin: 0px;
+}
+
+.star img {
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+}
+
+.degree {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.heart,
+.buy {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #909090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.heart img,
+.buy img {
+    width: 30px;
+    height: 25px;
+    object-fit: contain;
+}
+
+h3,
+p {
+    text-align: left;
+    width: 800px;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+.past-info {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #909090;
+}
+
+.grid{
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid #000;
+}
+.grid img{
+    width: 180px;
+    height: 100px;
+}
+.grid div{
+    border: 1px solid #2F2F2F;
+}
